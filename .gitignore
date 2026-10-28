@@ -1,0 +1,43 @@
+# Secrets
+.env
+.env.bak
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Data artifacts (large, generated)
+embeddings/
+models/
+results/
+traces/
+
+# Generated files
+*.log
+*.png
+*.csv
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
